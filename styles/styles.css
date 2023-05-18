@@ -11,7 +11,11 @@ nav {
     color: white;
     margin: 40px;
     font-size: 1.5em;
+  }
 
+  a:hover {
+    background-color: white;
+    color: steelblue;
   }
 
   h1 {
@@ -37,6 +41,11 @@ nav {
     text-align: center;
 
   }
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
+  }
+
   .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
@@ -48,3 +57,4 @@ nav {
   background-color: white;
   color: steelblue;
   }
+  
