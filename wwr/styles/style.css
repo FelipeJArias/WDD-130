@@ -6,7 +6,6 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
 body {
     background-color: #ede8e8;
     font-family: 'Roboto', 'Open Sans', sans-serif;
@@ -14,7 +13,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .home-tile  {
     color: #d9c2a3;
     font-family: 'Roboto', 'Open Sans', sans-serif;
@@ -22,11 +20,11 @@ body {
     margin-top: 10px;
 
 }
-
 header {
-    background-color: #4E6533; 
+    background-color: #4E6533;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
-
 .book, .join {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     font-size: 18px;
@@ -39,12 +37,14 @@ header {
     ;
 
 }
-
 .book:hover, .join:hover {
     background-color: #EEA039;
     color: #802904;
 }
-
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav a {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     text-align: center;
@@ -52,86 +52,73 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
-
 nav a:hover {
     background-color: #ede8e8;
     color: #EEA039;
  
 }
-
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
 #hero-msg h1 {
     text-align: center;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-
 #hero-img {
     width: 100%;
 }
-
 h4  {
     color: #802904;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-
 #hero-msg h4 {
     text-align: center;
     font-family: 'Roboto', 'Open Sans', sans-serif; 
 }
-
 .button-box {
     text-align: center;
 }
-
 main section {
     text-align: center;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-
 main section img {
     box-sizing: border-box;
 }
-
-
 #background {
     height: 725px;
     background-color: #EEA039;
 }
-
 .msg {
     background-color: #4E6533;
     line-height: 1.5em;
     padding: 35px;
 }
-
 h2 {
     margin: 0;
 }
-
 .msg h2  {
     color: #ede8e8;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
-
 .msg p {
     color: #ede8e8;
     font-size: .8em;
     padding-bottom: 15px;
 }
-
 footer {
     background-color: #EEA039;
     color: #ede8e8;
     padding: 25px 50px;
     margin-top: 200px;
 }
-
 footer p {
     font-size: 1.2em;
 }
 footer p a:hover{
     text-decoration: underline;
 }
-
 footer a {
     color: #ede8e8;
     text-decoration: none
@@ -142,32 +129,27 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
-
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
-
 .logo  {
     width: 80px;
 }
-
 .icon  {
     width: 80px;
     padding: 35px;
 }
-
 .card-img {
     border: 10px solid #4E6533
 }
-
 .rivers-card {
     margin: 200px 0;
 }
-
 .camping-card {
     margin: 200px 0;
 }
-
 .rapids-card {
     margin: 200px 0;
 }
