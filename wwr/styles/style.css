@@ -20,6 +20,10 @@ body {
     margin-top: 10px;
 
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 header {
     background-color: #4E6533;
     display: grid;
@@ -126,13 +130,14 @@ h2 {
     padding-bottom: 15px;
 }
 footer {
-    background-color: #EEA039;
+    background-color: #4E6533;
     color: #ede8e8;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
 }
 footer p {
@@ -164,10 +169,12 @@ footer .social img {
     padding: 35px;
 }
 .card-img {
-    width: 100%;
     border: 10px solid #4E6533;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364
+}
+.card-img, .mountains {
+    width: 100%;
 }
 .card-img:hover {
     opacity: .6;
